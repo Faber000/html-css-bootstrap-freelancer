@@ -23,7 +23,7 @@ main .container-custom, footer .container-custom {
 }
 
 .container-custom {
-    width: 1000px;
+    width: 400px;
     margin: auto;
 }
 
@@ -32,7 +32,7 @@ section > .container-custom {
 }
 
 .container-custom-small {
-    width: 800px;
+    width: 300px;
     min-height: 300px;
     margin: auto;
     padding: 20px;
@@ -52,4 +52,30 @@ header > .row {
 
 section {
     min-height: 300px;
+}
+
+/* media querys */
+
+@media screen and (min-width: 768px) {
+
+    .container-custom {
+        width: 700px;
+    }
+
+    .container-custom-small {
+        width: 500px;
+    }
+    
+}
+
+@media screen and (min-width: 992px) {
+
+    .container-custom {
+        width: 1000px;
+    }
+
+    .container-custom-small {
+        width: 800px;
+    }
+    
 }
