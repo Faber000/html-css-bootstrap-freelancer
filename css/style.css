@@ -1,0 +1,55 @@
+.blue {
+    background-color: rgb(44, 62, 80);
+}
+
+.dark-blue {
+    background-color: rgb(58, 84, 109);
+}
+
+.lighgreen {
+    background-color: rgb(26, 188, 156);
+}
+
+.black-text {
+    color: black;
+}
+
+header, section {
+    color: white;
+}
+
+main .container-custom, footer .container-custom {
+    min-height: 300px;
+}
+
+.container-custom {
+    width: 1000px;
+    margin: auto;
+}
+
+section > .container-custom {
+    text-align: center;
+}
+
+.container-custom-small {
+    width: 800px;
+    min-height: 300px;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header > .row {
+    height: 60px;
+}
+
+#hero {
+    width: 200px;
+    height: 200px;
+}
+
+section {
+    min-height: 300px;
+}
