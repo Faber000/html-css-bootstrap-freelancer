@@ -29,6 +29,7 @@
 .align {
     text-align: center;
 }
+
 h1 {
     text-align: center;
 }
@@ -86,17 +87,6 @@ p {
     color: white;
 }
 
-.flex-row {
-    display: flex;
-    flex-direction: row;
-}
-
-.flex-column {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 .center {
     justify-content: center;
     align-items: center;
@@ -109,10 +99,6 @@ p {
 
 header, section {
     color: white;
-}
-
-main .container-custom, footer .container-custom {
-    min-height: 300px;
 }
 
 .container-custom {
@@ -167,6 +153,7 @@ textarea {
     width: 100%;
     margin-bottom: 20px;
 }
+
 /* media querys */
 
 @media screen and (min-width: 768px) {
