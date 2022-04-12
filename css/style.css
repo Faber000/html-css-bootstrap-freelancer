@@ -52,7 +52,7 @@ li {
 }
 
 .footer-top {
-    height: 200px;
+    height: fit-content;
 }
 
 .fa-star {
@@ -186,7 +186,7 @@ textarea {
     .main-nav {
         display: block;
     }
-    
+
 }
 
 @media screen and (min-width: 992px) {
